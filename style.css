@@ -26,7 +26,6 @@ img{
 }
 
 .testimonial-grid-container{
-    padding: 100px;
     display: grid;
     height: 100vh;
     grid-template-columns: repeat(4,1fr);
@@ -37,6 +36,10 @@ img{
     "box1 box1 box2 box3"
     "box4 box5 box5 box3";
     justify-content: center;
+}
+
+main{
+    padding: 100px;
 }
 
 .profile{
